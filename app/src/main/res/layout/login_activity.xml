@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:hint="输入手机号码"
+        android:inputType="phone"
+        android:maxLength="13"/>
+
+    <Button
+        android:id="@+id/cancle"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="清空"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="111"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
